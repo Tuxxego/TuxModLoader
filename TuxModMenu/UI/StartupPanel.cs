@@ -83,13 +83,13 @@ namespace TuxModLoader
 
                 GUILayout.BeginArea(new Rect(Screen.width / 2 - 200, currentY, 400, 250), panelStyle);
 
-                GUILayout.Label("Welcome to TuxModLoader", headerStyle);
+                GUILayout.Label("TuxModLoader", headerStyle);
 
                 GUILayout.Space(20);
-                GUILayout.Label($"Mods Loaded: {successfulMods}", countStyle);
-                GUILayout.Label($"Failed Mods: {failedMods}", countStyle);
+                GUILayout.Label($"Addons Loaded: {successfulMods}", countStyle);
+                GUILayout.Label($"Failed Addons: {failedMods}", countStyle);
                 GUILayout.Space(10);
-                GUILayout.Label($"TuxModLoader Version: {tuxModLoaderVersion}", countStyle);
+                GUILayout.Label($"Version: {tuxModLoaderVersion}", countStyle);
 
                 GUILayout.Space(20);
                 GUILayout.Box("", GUILayout.Height(2), GUILayout.ExpandWidth(true));

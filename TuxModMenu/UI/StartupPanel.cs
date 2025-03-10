@@ -29,7 +29,8 @@ namespace TuxModLoader
                 {
                     fontSize = 24,
                     fontStyle = FontStyle.Bold,
-                    normal = { textColor = Color.white }
+                    normal = { textColor = Color.white },
+                    alignment = TextAnchor.MiddleCenter
                 };
             }
 
@@ -38,9 +39,11 @@ namespace TuxModLoader
                 countStyle = new GUIStyle(GUI.skin.label)
                 {
                     fontSize = 18,
-                    normal = { textColor = Color.green }
+                    normal = { textColor = Color.green },
+                    alignment = TextAnchor.MiddleCenter
                 };
             }
+
 
             if (panelStyle == null)
             {

@@ -153,6 +153,9 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>dafuckinstuff\System.Memory.dll</HintPath>
     </Reference>
+    <Reference Include="System.Reflection">
+      <HintPath>E:\Users\tuxx3\Downloads\System.Reflection_x86\System.Reflection.dll</HintPath>
+    </Reference>
     <Reference Include="System.Reflection.Metadata">
       <HintPath>dafuckinstuff\System.Reflection.Metadata.dll</HintPath>
     </Reference>
@@ -224,10 +227,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Builders\ActorBuilder.cs" />
+    <Compile Include="Builders\ButtonBuilder.cs" />
     <Compile Include="Builders\NewsBuilder.cs" />
+    <Compile Include="Builders\TabBuilder.cs" />
     <Compile Include="Builders\TraitBuilder.cs" />
     <Compile Include="CoreLogic\Addon.cs" />
+    <Compile Include="CoreLogic\Localization.cs" />
     <Compile Include="CoreLogic\ModSetup.cs" />
+    <Compile Include="CoreLogic\ResourcesLoader.cs" />
     <Compile Include="CoreLogic\SpriteLoader.cs" />
     <Compile Include="CoreLogic\WorldBoxMod.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -95,7 +95,7 @@ namespace TuxModLoader
                 GUILayout.Box("", GUILayout.Height(2), GUILayout.ExpandWidth(true));
 
                 GUILayout.Space(20);
-                if (GUILayout.Button("Close Panel", buttonStyle))
+                if (GUILayout.Button("Close", buttonStyle))
                 {
                     HideStartupPanel();
                 }

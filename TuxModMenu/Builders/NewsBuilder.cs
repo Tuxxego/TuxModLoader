@@ -1,12 +1,15 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 
-public class NewsBuilder
+namespace TuxModLoader.Builders
 {
-    public static void addNews(string news)
+    public class NewsBuilder
     {
-        WorldLogMessage worldLogMessage = new WorldLogMessage { text = news };
+        public static void addNews(string news)
+        {
+            WorldLogMessage worldLogMessage = new WorldLogMessage { text = news };
 
-        HistoryHud.instance.newHistory(ref worldLogMessage);
+            HistoryHud.instance.newHistory(ref worldLogMessage);
+        }
     }
 }

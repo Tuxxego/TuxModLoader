@@ -20,6 +20,8 @@ namespace TuxModLoader
 
         private Texture2D gradientTexture;
 
+        private Menu ballsPanel;
+
         void OnGUI()
         {
 
@@ -104,7 +106,6 @@ namespace TuxModLoader
                 }
 
                 GUI.backgroundColor = new Color(0.05f, 0.05f, 0.1f);
-                GUI.skin.window.normal.background = gradientTexture;
 
                 GUILayout.EndArea();
             }
@@ -123,6 +124,8 @@ namespace TuxModLoader
         public void HideStartupPanel()
         {
             isPanelVisible = false;
+            GameObject panelObject = new GameObject("ballsPanel");
+            ballsPanel = panelObject.AddComponent<Menu>();
         }
 
         private Texture2D MakeTex(int width, int height, Color col)

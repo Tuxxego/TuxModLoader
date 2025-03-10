@@ -6,7 +6,7 @@ namespace TuxModLoader
     {
         private int successfulMods;
         private int failedMods;
-        private string tuxModLoaderVersion = "1.0.0";
+        private string tuxModLoaderVersion = "0.1.0";
 
         private GUIStyle headerStyle;
         private GUIStyle countStyle;
